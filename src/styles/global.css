@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-blue-500 text-white;
+}
+
+.card{
+  @apply bg-blue-600 shadow-md text-blue-100;
+}
+
+.app-btn{
+  @apply bg-blue-500 text-white py-4 px-6 rounded shadow-md uppercase font-semibold;
+}
+
+.app-btn-flat{
+  @apply text-pink-200 py-4 px-6 uppercase font-semibold;
+}
